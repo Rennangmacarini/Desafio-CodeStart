@@ -1,0 +1,193 @@
+@media (max-width: 800px) {
+  /* Tela inicial */
+  .nav-containe .logo-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-container .section-content h1 {
+    font-size: 1.875rem;
+    line-height: 40px;
+  }
+
+  .section-container .section-content p {
+    font-size: 13px;
+  }
+
+  .section-container .section-content .a-link {
+    font-size: 13px;
+  }
+
+  .section-container img {
+    width: 339px;
+  }
+
+  .banner-clientes h3 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .banner-clientes img {
+    width: 45px;
+  }
+
+  /* Main */
+
+  .content-text-img {
+    gap: 1.5rem;
+    margin-top: 45px;
+    margin-bottom: 0px;
+  }
+
+  main .content-text-img:last-child {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  .content-text-img img {
+    width: 340px;
+  }
+
+  .content-text-img h4 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .content-text-img p {
+    font-size: 13px;
+    line-height: 18px;
+    width: 312px;
+  }
+
+  .content-card .card {
+    width: 340px;
+    height: 390px;
+  }
+
+  .content-card .card h4 {
+    font-size: 26px;
+  }
+
+  .content-card .card p {
+    font-size: 16px;
+  }
+  .content-card .card img {
+    width: 78px;
+  }
+
+  /* Serviços */
+  .content-servico {
+    padding: 50px 0px;
+  }
+  .content-servico h4 {
+    font-size: 30px;
+  }
+
+  .content-servico p {
+    font-size: 16px;
+  }
+  .content-servico .servico-grid {
+    gap: 26px;
+  }
+
+  .content-servico .servico-grid .servico-card {
+    width: 420px;
+    height: 171px;
+    padding: 25px 63px;
+    gap: 2rem;
+  }
+
+  .content-servico .servico-grid .servico-card .servico-img img {
+    width: 34px;
+  }
+
+  .content-servico .servico-grid .servico-card .servico-img {
+    width: 79px;
+    height: 77px;
+  }
+
+  .content-servico .servico-grid .servico-card h5 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .content-servico .servico-grid .servico-card p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* Trabalho */
+  .trabalho-container .trabalho-text {
+    padding-top: 65px;
+  }
+  .trabalho-container .trabalho-text h4 {
+    font-size: 30px;
+  }
+
+  .trabalho-container .trabalho-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .trabalho-container .trabalho-card {
+    margin-top: -180px;
+    padding: 0px 2rem;
+  }
+
+  .trabalho-container .trabalho-card img {
+    width: 272px;
+  }
+
+  /* Formulário */
+  .form-contato {
+    margin-top: 91px;
+    margin-bottom: 30px;
+  }
+
+  .form-contato h4 {
+    font-size: 30px;
+  }
+
+  .form-contato .form input,
+  .form-contato .form textarea {
+    width: 330px;
+    font-size: 16px;
+  }
+
+  .form-contato .form .form-button {
+    font-size: 16px;
+  }
+
+  /* Footer */
+  footer {
+    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  footer .icons-footer {
+    gap: 25px;
+  }
+  .icons-footer img {
+    width: 20px;
+    height: 20px;
+  }
+
+  footer P {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .section-container {
+    padding-top: 130px;
+    gap: 80px;
+  }
+  .banner-clientes {
+    gap: 1.5rem;
+  }
+
+  .content-servico .servico-grid .servico-card {
+    width: 330px;
+    gap: 1rem;
+    padding: 25px 20px;
+  }
+}

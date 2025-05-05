@@ -1,0 +1,225 @@
+@media (max-width: 1800px) {
+  /* Ajuste dos card de trabalho */
+  .trabalho-container .trabalho-card {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin-top: -160px;
+  }
+
+  .trabalho-container .trabalho-card img {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 1500px) {
+  /* Ajuste tela inicial para tablet */
+  header {
+    z-index: 1;
+  }
+  .nav-container,
+  .section-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section-container {
+    padding-top: 180px;
+    padding-bottom: 75px;
+    height: 100%;
+  }
+
+  .nav-content {
+    display: none;
+  }
+  .section-container .section-content .a-link {
+    font-size: 2rem;
+  }
+
+  .section-container img {
+    width: 470px;
+  }
+
+  /* Banner de cards */
+
+  .banner-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+  }
+
+  .banner-clientes h3 {
+    font-size: 2rem;
+    line-height: 38px;
+  }
+
+  .banner-clientes h3 span {
+    display: none;
+  }
+
+  .banner-clientes img:nth-child(2) {
+    display: none;
+  }
+
+  .banner-clientes img:nth-child(5) {
+    display: none;
+  }
+
+  .banner-clientes img:nth-child(3) {
+    display: block;
+  }
+
+  .banner-clientes img:nth-child(6) {
+    display: block;
+  }
+
+  /* Main config tablet*/
+
+  main {
+    display: flex;
+    flex-direction: column; /* mantém layout vertical */
+  }
+
+  main > .content-card {
+    order: 3;
+    flex-direction: column;
+    margin-bottom: 140px;
+  }
+
+  main > .content-text-img:last-of-type {
+    order: 2;
+    flex-direction: column;
+  }
+
+  main > .content-text-img:first-of-type {
+    order: 1;
+  }
+
+  .content-text-img {
+    flex-direction: column;
+    text-align: center;
+    gap: 9.25rem;
+    margin-top: 140px;
+  }
+
+  .content-text-img h4 {
+    font-size: 3.125rem;
+    line-height: 63px;
+  }
+
+  .content-text-img p {
+    font-size: 2rem;
+    line-height: 42px;
+    width: 748px;
+  }
+
+  .content-text-img img {
+    width: 800px;
+  }
+
+  .content-card .card {
+    width: 840px;
+    height: 600px;
+  }
+
+  .content-card .card img {
+    width: 110px;
+  }
+
+  .content-card .card h4 {
+    color: black;
+    font-weight: 600;
+  }
+
+  .content-card .card p {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  /* Servico */
+  .content-servico {
+    background-color: #f9f9f9;
+  }
+  .content-servico h4 {
+    color: black;
+  }
+  .content-servico .servico-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 71px;
+    color: black;
+  }
+
+  .trabalho-container .trabalho-card {
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
+  .trabalho-container .trabalho-card img {
+    max-width: 700px; /* largura das imagens */
+    height: auto;
+    flex-shrink: 0; /* evita que a imagem encolha */
+    border-radius: 8px; /* opcional, visual mais bonito */
+  }
+
+  .trabalho-container .trabalho-card img:first-child {
+    margin-left: 60rem;
+  }
+
+  /* Formulário */
+  .form-contato h4 {
+    color: black;
+  }
+
+  .form-contato .form input,
+  .form-contato .form textarea {
+    width: 700px;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+    gap: 26px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner-clientes {
+    gap: 3rem;
+  }
+
+  .banner-clientes h3 {
+    font-size: 25px;
+  }
+
+  .banner-clientes img {
+    width: 60px;
+  }
+
+  .content-text-img img {
+    width: 600px;
+  }
+
+  .content-card .card {
+    width: 500px;
+    height: 400px;
+    gap: 1rem;
+  }
+
+  .content-card .card img {
+    width: 80px;
+    margin: 0;
+    margin-top: 50px;
+  }
+
+  .content-card .card h4 {
+    font-size: 1.8rem;
+  }
+  .content-card .card p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
